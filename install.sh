@@ -34,10 +34,9 @@ sudo rsync -r /usr/share/ /usr/share
 sudo pacman --noconfirm -S python xorg-xprop python-pip
 pip install --user i3ipc
 pip install --user fontawesome
-git clone git@github.com:MikaelElkiaer/i3-warp-mouse.git ~/Repositories/GitHub/i3-warp-mouse
-git clone git@github.com:MikaelElkiaer/i3scripts.git ~/Repositories/GitHub/i3scripts
-git clone git@github.com:gawen947/i3-quaketerm.git ~/Repositories/GitHub/i3-quaketerm
-
+git clone https://github.com/MikaelElkiaer/i3-warp-mouse.git ~/Repositories/GitHub/i3-warp-mouse
+git clone https://github.com/MikaelElkiaer/i3scripts.git ~/Repositories/GitHub/i3scripts
+git clone https://github.com/gawen947/i3-quaketerm.git ~/Repositories/GitHub/i3-quaketerm
 # wol
 nmcli c modify $WIRED 802-3-ethernet.wake-on-lan magic
 sudo sed -i "s/#?\(WOL_DISABLE=\)[YN]/\1Y/" /etc/tlp.conf
