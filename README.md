@@ -1,8 +1,8 @@
 ## i3wm scripts
 ```
-git clone git@github.com:MikaelElkiaer/i3-warp-mouse.git ~/Repositories/GitHub/i3-warp-mouse
-git clone git@github.com:MikaelElkiaer/i3scripts.git ~/Repositories/GitHub/i3scripts
-git clone git@github.com:gawen947/i3-quaketerm.git ~/Repositories/GitHub/i3-quaketerm
+git clone https://github.com/MikaelElkiaer/i3-warp-mouse.git ~/Repositories/GitHub/i3-warp-mouse
+git clone https://github.com/MikaelElkiaer/i3scripts.git ~/Repositories/GitHub/i3scripts
+git clone https://github.com/gawen947/i3-quaketerm.git ~/Repositories/GitHub/i3-quaketerm
 ```
 
 ## Tungsten
